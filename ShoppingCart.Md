@@ -1,5 +1,4 @@
-
-
+# Creating a web based shopping application connected to database along with registration and login page
 
 ## 1. Creating a Database 
 ### Login-Register Database

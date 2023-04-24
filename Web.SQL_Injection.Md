@@ -21,6 +21,7 @@
 ## Modify database 
 ![image](https://user-images.githubusercontent.com/68326118/233936753-de7131be-be15-45d6-8b2b-4c34f1187c26.png)
 
+## DROP Database
 ![image](https://user-images.githubusercontent.com/68326118/233937202-c0927bee-bbf8-4a0d-af25-2b64f58b637f.png)
 
 ![image](https://user-images.githubusercontent.com/68326118/233937460-cd918b4b-c1e0-4146-a44a-063950fcfd5c.png)

@@ -57,14 +57,23 @@ It also specifies any constraints on the content, such as whether an element is 
 ## Method 1: DTD declarations are to be included in your XML document
 `<!DOCTYPE rootElementTag [DTD-Declarations]>`
 ![image](https://user-images.githubusercontent.com/68326118/235574846-67f0e854-fe6a-4669-b849-fdea781ef456.png)
+## Validation
+![image](https://user-images.githubusercontent.com/68326118/235597742-db121fd3-2a2d-49c8-b3f8-1103d572acee.png)
+
 ## Method 2: To link a DTD declaration file to an XML document
 `<!DOCTYPE rootElementTag SYSTEM DTD-URL>`
 ![image](https://user-images.githubusercontent.com/68326118/235575194-c6112e46-3ee6-4cac-97d2-cfaa449f39c2.png)
+## Validation
+![image](https://user-images.githubusercontent.com/68326118/235597878-06922746-ce67-45c6-8d89-77e723edb3bb.png)
+
 # XML Schema
 While Document Type Definition (DTD) is a part of the XML specification and is supported by all XML processors, it has limitations in defining complex data structures. XML Schema is an industry standard alternative to DTD for defining XML dialects. XML Schema is itself an XML dialect, so it can benefit from many existing XML techniques and processors. It provides a more comprehensive way to define the data structure and its constraints, 
 allowing for the reuse of common declarations in multiple element or attribute declarations.
 
 ![image](https://user-images.githubusercontent.com/68326118/235575414-e1a2f82e-5c6a-47c9-a989-305e9c8b8db6.png)
+
+## Validation
+![image](https://user-images.githubusercontent.com/68326118/235598048-cf362aad-7321-4669-b2b5-adaeb520c3b5.png)
 
 In the above example "xs" - XML prefix representing namesapce;
 `http://www.w3.org/2001/XMLSchema`- Here if the element is  qualified by its namespace prefix, as “xs:element” for element element declared in namespace `“http://www.w3.org/2001/XMLSchema”`, 
